@@ -1,6 +1,6 @@
 from __future__ import unicode_literals
 
-from appointments.handlers.new import NewHandler
+from timelines.handlers.new import NewHandler
 
 
 class BirthHandler(NewHandler):
@@ -9,7 +9,7 @@ class BirthHandler(NewHandler):
 
     def parse_message(self, text):
         "Tokenize message text."
-        result = {'keyword': 'birth'} # FIXME: This much match the timeline name
+        result = {'keyword': 'birth'}  # FIXME: This must match timeline name
         tokens = text.strip().split()
         result['name'] = tokens.pop(0)
         if tokens:

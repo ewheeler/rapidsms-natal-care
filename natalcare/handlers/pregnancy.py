@@ -1,6 +1,6 @@
 from __future__ import unicode_literals
 
-from appointments.handlers.new import NewHandler
+from timelines.handlers.new import NewHandler
 
 
 class PregnancyHandler(NewHandler):

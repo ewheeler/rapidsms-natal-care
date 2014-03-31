@@ -3,7 +3,7 @@ rapidsms-natal-care
 
 rapidsms-natal-care is a reusable RapidSMS application for tracking new pregnancies,
 pre-natal visits, new births and post-natal visits. It's built
-on top of `rapidsms-appointments <https://github.com/caktus/rapidsms-appointments>`_
+on top of `rapidsms-timelines<https://github.com/ewheeler/rapidsms-timelines`_
 and `rapidsms-healthcare <https://github.com/caktus/rapidsms-healthcare>`_.
 
 
@@ -13,7 +13,7 @@ Dependencies
 rapidsms-natal-care currently runs on Python 2.6 and 2.7 and requires the following
 Python packages:
 
-- rapidsms-appointments >= 0.1
+- rapidsms-timelines >= 0.1
 - rapidsms-healthcare >= 0.1
 - Django >= 1.3
 - RapidSMS >= 0.11
